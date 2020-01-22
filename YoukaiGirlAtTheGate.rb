@@ -1,180 +1,262 @@
 #Youkai Girl at the Gate - Touhou Project
-use_synth:chipbass
-2.times do
+live_loop :stage_2_boss do
+  2.times do
+    play :Fs4
+    sleep 0.2
+    play :B4
+    sleep 0.2
+    play :B4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :Cs5
+    sleep 0.4
+    play :Fs4
+    sleep 0.2
+    play :Fs4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :D5, attack: 0, sustain: 0.5, release: 0
+    sleep 0.5
+    play :D5, attack: 0, sustain: 0.5, release: 0
+    sleep 0.5
+    play :Cs5
+    sleep 0.4
+    play :B4
+    sleep 0.2
+    play :B4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :Cs5
+    sleep 0.4
+    play :Fs4
+    sleep 0.2
+    play :Fs4
+    sleep 0.4
+    play :B4
+    sleep 0.2
+    play :E5
+    sleep 0.2
+    play :D5
+    sleep 0.2
+    play :Cs5
+    sleep 0.2
+    play :B4
+    sleep 0.2
+    play :Cs5
+    sleep 0.2
+    play :D5
+    sleep 0.2
+    play :Fs4
+    sleep 0.2
+    play :B4
+    sleep 0.2
+    play :B4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :Cs5
+    sleep 0.4
+    play :Fs4
+    sleep 0.2
+    play :Fs4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :D5, attack: 0, sustain: 0.5, release: 0
+    sleep 0.5
+    play :D5, attack: 0, sustain: 0.5, release: 0
+    sleep 0.5
+    play :Cs5
+    sleep 0.4
+    play :As4
+    sleep 0.2
+    play :As4
+    sleep 0.4
+    play :Cs5
+    sleep 0.2
+    play :Cs5
+    sleep 0.4
+    play :Fs4
+    sleep 0.2
+    play :Fs4
+    sleep 0.4
+    play :Fs5
+    sleep 0.2
+    play :E5
+    sleep 0.2
+    play :D5
+    sleep 0.2
+    play :Cs5
+    sleep 0.2
+    play :B4
+    sleep 0.2
+    play :Cs5
+    sleep 0.2
+    play :D5
+    sleep 0.4
+  end
   play :Fs4
-  sleep 0.2
-  play :B4
-  sleep 0.2
-  play :B4
+  play :As4
   sleep 0.4
-  play :Cs5
-  sleep 0.2
-  play :Cs5
-  sleep 0.4
-  play :Fs4
-  sleep 0.2
-  play :Fs4
-  sleep 0.4
-  play :Cs5
-  sleep 0.2
-  play :D5, attack: 0, sustain: 0.5, release: 0
-  sleep 0.5
-  play :D5, attack: 0, sustain: 0.5, release: 0
-  sleep 0.5
-  play :Cs5
-  sleep 0.4
-  play :B4
-  sleep 0.2
-  play :B4
-  sleep 0.4
-  play :Cs5
-  sleep 0.2
-  play :Cs5
-  sleep 0.4
-  play :Fs4
-  sleep 0.2
-  play :Fs4
-  sleep 0.4
-  play :B4
-  sleep 0.2
-  play :E5
-  sleep 0.2
-  play :D5
-  sleep 0.2
-  play :Cs5
-  sleep 0.2
-  play :B4
-  sleep 0.2
-  play :Cs5
-  sleep 0.2
-  play :D5
-  sleep 0.2
-  play :Fs4
-  sleep 0.2
-  play :B4
-  sleep 0.2
-  play :B4
-  sleep 0.4
-  play :Cs5
-  sleep 0.2
-  play :Cs5
-  sleep 0.4
-  play :Fs4
-  sleep 0.2
-  play :Fs4
-  sleep 0.4
-  play :Cs5
-  sleep 0.2
-  play :D5, attack: 0, sustain: 0.5, release: 0
-  sleep 0.5
-  play :D5, attack: 0, sustain: 0.5, release: 0
-  sleep 0.5
+  play :As4
   play :Cs5
   sleep 0.4
   play :As4
+  play :Ds5
+  sleep 0.6
+  play :As4
+  play :F5
+  sleep 1
+  play :Fs4
+  play :As4
+  sleep 0.8
+  play :As4
+  sleep 0.2
+  play :Cs5
   sleep 0.2
   play :As4
+  play :Ds5
+  sleep 0.4
+  play :Ds5
+  play :Gs5
   sleep 0.4
   play :Cs5
-  sleep 0.2
+  play :Fs5
+  sleep 0.4
   play :Cs5
-  sleep 0.4
-  play :Fs4
+  play :F5
   sleep 0.2
-  play :Fs4
+  play :As4
+  play :Ds5
   sleep 0.4
+  play :D5
+  play :F5
+  sleep 0.4
+  play :As4
+  play :D5
+  sleep 0.4
+  play :B4
+  play :Ds5
+  sleep 0.4
+  play :Cs5
+  play :F5
+  sleep 0.8
+  play :As4
+  play :Ds5
+  sleep 0.8
+  play :Cs5
+  play :F5
+  sleep 0.8
+  play :Cs5
+  play :Fs5
+  sleep 1
   play :Fs5
   sleep 0.2
-  play :E5
+  play :Gs5
   sleep 0.2
+  play :Fs5
+  play :As5
+  sleep 0.2
+  play :Gs5
+  sleep 0.2
+  play :Fs5
+  sleep 0.2
+  play :F5
+  sleep 0.2
+  play :Ds5
+  sleep 0.2
+  play :As4
+  sleep 0.2
+  play :Gs4
+  sleep 0.2
+  play :Fs4
+  sleep 0.2
+  play :F4
+  play :D4
+  sleep 0.4
+  play :As3
+  play :F4
+  sleep 0.4
+  play :B3
+  play :Ds4
+  sleep 0.4
+  play :Cs4
+  play :F4
+  sleep 0.6
+  play :As4
+  play :Ds5
+  sleep 0.8
+  play :As4
+  play :F5
+  sleep 0.8
+  play :Fs4
+  play :As4
+  sleep 0.8
+  play :As4
+  sleep 0.2
+  play :Cs5
+  sleep 0.2
+  play :As4
+  play :Ds5
+  sleep 0.4
+  play :Ds5
+  play :Gs5
+  sleep 0.4
+  play :Cs5
+  play :Fs5
+  sleep 0.4
+  play :Cs5
+  play :F5
+  sleep 0.2
+  play :As4
+  play :Ds5
+  sleep 0.4
   play :D5
-  sleep 0.2
-  play :Cs5
-  sleep 0.2
-  play :B4
-  sleep 0.2
-  play :Cs5
-  sleep 0.2
+  play :F5
+  sleep 0.4
+  play :As4
   play :D5
   sleep 0.4
+  play :B4
+  play :Ds5
+  sleep 0.4
+  play :Cs5
+  play :F5
+  sleep 0.8
+  play :As4
+  play :Ds5
+  sleep 0.8
+  play :Cs5
+  play :F5
+  sleep 0.8
+  play :Cs5
+  play :Fs5
+  sleep 1
+  play :Fs5
+  sleep 0.2
+  play :Gs5
+  sleep 0.2
+  play :Fs5
+  play :As5
+  sleep 0.2
+  play :Gs5
+  sleep 0.2
+  play :Fs5
+  sleep 0.2
+  play :F5
+  sleep 0.2
+  play :Ds5
+  sleep 0.2
+  play :As4
+  sleep 0.2
+  play :Gs4
+  sleep 0.2
+  play :Fs4
+  sleep 0.2
+  play :B4
+  play :D5
+  sleep 1
 end
-
-play :Fs4
-play :As4
-sleep 0.4
-play :As4
-play :Cs5
-sleep 0.4
-play :As4
-play :Ds5
-sleep 0.6
-play :As4
-play :F5
-sleep 1
-play :Fs4
-play :As4
-sleep 0.8
-play :As4
-sleep 0.2
-play :Cs5
-sleep 0.2
-play :As4
-play :Ds5
-sleep 0.4
-play :Ds5
-play :Gs5
-sleep 0.4
-play :Cs5
-play :Fs5
-sleep 0.4
-play :Cs5
-play :F5
-sleep 0.2
-play :As4
-play :Ds5
-sleep 0.4
-play :D5
-play :F5
-sleep 0.4
-play :As4
-play :D5
-sleep 0.4
-play :B4
-play :Ds5
-sleep 0.4
-play :Cs5
-play :F5
-sleep 0.8
-play :As4
-play :Ds5
-sleep 0.8
-play :Cs5
-play :F5
-sleep 0.8
-play :Cs5
-play :Fs5
-sleep 1
-play :Fs5
-sleep 0.2
-play :Gs5
-sleep 0.2
-play :Fs5
-play :As5
-sleep 0.2
-play :Gs5
-sleep 0.2
-play :Fs5
-sleep 0.2
-play :F5
-sleep 0.2
-play :Ds5
-sleep 0.2
-play :As4
-sleep 0.2
-play :Gs4
-sleep 0.2
-play :Fs4
-sleep 0.2
-play :F4
-play :D4
-sleep 0.2
