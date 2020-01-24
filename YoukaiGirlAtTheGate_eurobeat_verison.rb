@@ -9,7 +9,7 @@ sample sample1, amp: 5
 sleep 38
 use_synth :dsaw
 use_synth_defaults amp: 5
-use_bpm 60
+use_bpm 65
 live_loop :stage_2_boss do
   2.times do
     play :Fs4
